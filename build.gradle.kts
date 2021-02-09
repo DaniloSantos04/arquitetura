@@ -5,7 +5,10 @@ plugins {
 	id("io.spring.dependency-management") version "1.0.11.RELEASE"
 	kotlin("jvm") version "1.4.21-2"
 	kotlin("plugin.spring") version "1.4.21-2"
+	application
 }
+
+
 
 group = "br.com"
 version = "0.0.1-SNAPSHOT"
@@ -33,4 +36,8 @@ tasks.withType<KotlinCompile> {
 
 tasks.withType<Test> {
 	useJUnitPlatform()
+}
+
+application {
+	mainClass.set("br.com.arquitetura.application.Boot")
 }

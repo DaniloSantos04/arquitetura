@@ -3,7 +3,7 @@ package br.com.arquitetura
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
-@SpringBootApplication
+//@SpringBootApplication
 class ArquiteturaApplication
 
 fun main(args: Array<String>) {

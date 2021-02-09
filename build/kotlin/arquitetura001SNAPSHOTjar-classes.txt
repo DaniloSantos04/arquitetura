@@ -1,0 +1,1 @@
+C:\Users\santo\Documents\arquitetura\arquitetura\build\classes\kotlin\main\br\com\arquitetura\ArquiteturaApplication.class;C:\Users\santo\Documents\arquitetura\arquitetura\build\classes\kotlin\main\br\com\arquitetura\ArquiteturaApplicationKt.class
