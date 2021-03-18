@@ -6,4 +6,5 @@ pluginManagement {
 	}
 }
 rootProject.name = "arquitetura"
-include("application")
+include("application", "api")
+

@@ -8,11 +8,10 @@ plugins {
 	application
 }
 
-
-
 group = "br.com"
 version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
+
 
 repositories {
 	mavenCentral()
@@ -38,6 +37,4 @@ tasks.withType<Test> {
 	useJUnitPlatform()
 }
 
-application {
-	mainClass.set("br.com.arquitetura.application.Boot")
-}
+
